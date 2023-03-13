@@ -42,8 +42,8 @@ public class Chair {
                 Chair.getInstance()
                 , Chair.getInstance()};
 
-        for (Chair ma : mas) {
-            System.out.println(ma);
+        for (Chair chair : mas) {
+            System.out.println(chair);
         }
     }
 }
