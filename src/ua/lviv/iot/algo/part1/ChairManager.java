@@ -21,11 +21,12 @@ public class ChairManager {
 
         System.out.println(chairManager);
         System.out.println(chairManager.findChairWithOwnerOleh());
-        System.out.println(chairManager.findChairWhichMaxWeightMoreThan165());
+        System.out.println(chairManager.findChairWhichMaxWeightMoreThan(80));
+        System.out.println(chairManager.findChairWhichMaxWeightMoreThan(120));
     }
-    public List<Chair> findChairWhichMaxWeightMoreThan165(){
+    public List<Chair> findChairWhichMaxWeightMoreThan(final int kilo){
         return chairs.stream()
-                .filter(c ->c.getMaxWeight()>165)
+                .filter(c ->c.getMaxWeight() > kilo)
                 .collect(Collectors.toList());
     }
     public List<Chair> findChairWithOwnerOleh()
@@ -34,8 +35,8 @@ public class ChairManager {
                 .filter(g -> g.getOwner().startsWith("Oleh"))
                 .collect(Collectors.toList());
     }
-    public void addChair(Chair ... chair){
+
+    public void addChair(Chair... chair) {
         chairs.addAll(List.of(chair));
     }
 }
-

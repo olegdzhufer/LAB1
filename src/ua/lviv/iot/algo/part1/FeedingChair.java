@@ -4,7 +4,7 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-
+@ToString(callSuper = true)
 public class FeedingChair extends Chair{
     private int minHeight;
     private int maxHeight;
@@ -19,15 +19,6 @@ public class FeedingChair extends Chair{
         this.minHeight = minHeight;
         this.maxHeight = maxHeight;
         this.ageDesignedFor = ageDesignedFor;
-    }
-
-    @Override
-    public String toString() {
-        return "FeedingTable{" +
-                "minHeight=" + minHeight +
-                ", maxHeight=" + maxHeight +
-                ", ageDesignedFor=" + ageDesignedFor +
-                "} " + super.toString();
     }
 }
 

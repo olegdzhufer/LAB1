@@ -4,7 +4,6 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-
 public class OfficeChair extends Chair{
 private int backAngle;
 private String materialUpholstary;

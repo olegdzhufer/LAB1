@@ -5,10 +5,7 @@ import lombok.*;
 @AllArgsConstructor
 @Getter
 @Setter
-
 public abstract class Chair {
-
-    private static final int id = 1;
     private String material;
     private int maxWeight;
     private String owner;
