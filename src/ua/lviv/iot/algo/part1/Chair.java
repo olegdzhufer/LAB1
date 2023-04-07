@@ -6,8 +6,8 @@ import lombok.*;
 @Getter
 @Setter
 public abstract class Chair {
-    private String material;
-    private int maxWeight;
-    private String owner;
+    protected String material;
+    protected int maxWeight;
+    protected String owner;
     abstract void adjustPosition(int value);
 }
