@@ -13,7 +13,7 @@ public class DentalChair extends Chair {
     private int angleChair;
 
     @Override
-    void adjustPosition(int angleChair) {
+    public void adjustPosition(int angleChair) {
         angleChair++;
     }
 
