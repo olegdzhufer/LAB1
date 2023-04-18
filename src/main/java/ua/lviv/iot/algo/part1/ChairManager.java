@@ -1,11 +1,18 @@
 package ua.lviv.iot.algo.part1;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.ToString;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 @ToString
+@Getter
+@Setter
+@NoArgsConstructor
+
 public class ChairManager {
     private final List<Chair> chairs = new LinkedList<>();
     public static void main (String [] args) {

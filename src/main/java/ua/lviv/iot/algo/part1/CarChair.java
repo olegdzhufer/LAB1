@@ -14,7 +14,7 @@ public class CarChair extends Chair {
     private boolean heating;
 
     @Override
-    void adjustPosition(int lenghtToWheel) {
+    public void adjustPosition(int lenghtToWheel) {
         lenghtToWheel++;
     }
 
