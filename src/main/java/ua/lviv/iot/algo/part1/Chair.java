@@ -18,7 +18,7 @@ public abstract class Chair {
     private int maxWeight;
     private String owner;
 
-    private static final String HEADERS = "material, maxWeight, owner";
+    private static final String HEADERS = " material, maxWeight, owner\n";
 
     abstract void adjustPosition(int value);
 
@@ -26,6 +26,6 @@ public abstract class Chair {
         return HEADERS;
     }
     public String toCSV(){
-        return material + "," + maxWeight + "," + owner;
+        return material + "," + maxWeight + "," + owner + "\n";
     }
 }

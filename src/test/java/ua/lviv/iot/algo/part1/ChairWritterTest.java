@@ -39,6 +39,7 @@ public class ChairWritterTest extends TestCase {
     @AfterAll
     public void tearDown() throws IOException {
         Files.deleteIfExists(Path.of(RESULT_FILE_NAME));
+
     }
 
     @Test
@@ -62,6 +63,8 @@ public class ChairWritterTest extends TestCase {
 
     @Test
     public void testFileOverride() throws IOException{
+
         testWriteListOfChairs();
+
     }
 }

@@ -1,16 +1,12 @@
 backAngle, materialUpholstary, angle,material, maxWeight, owner
 90,skin,0,metal,100,Oleh
-backAngle, materialUpholstary, angle,material, maxWeight, owner
 100,skin,0,plastic,110,Ihor
+angleChair,material, maxWeight, owner
+170,velor,170,Ostap
+165,imitation leather,180,Danylo
 maxHeight, ageDesignedFor, height,material, maxWeight, owner
 50,60,0,2,wood,90,Oleksiy
-maxHeight, ageDesignedFor, height,material, maxWeight, owner
 45,70,0,3,metal,60,Andriy
 lengthToWheel, heating,material, maxWeight, owner
 50,true,skin,150,Ivan
-lengthToWheel, heating,material, maxWeight, owner
 60,false,flock,160,Maks
-angleChair,material, maxWeight, owner
-170,velor,170,Ostap
-angleChair,material, maxWeight, owner
-165,imitation leather,180,Danylo
